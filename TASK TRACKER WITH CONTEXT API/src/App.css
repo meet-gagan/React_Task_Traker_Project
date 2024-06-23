@@ -1,0 +1,64 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #282c34;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.task-list {
+  margin: 20px 0;
+}
+
+.task {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+}
+
+.task span {
+  cursor: pointer;
+}
+
+.task button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: darkred;
+}
